@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.invitation-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.invitation-header {
+    background-color: royalblue;
+    color: white;
+    padding: 10px 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.invitation-header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.invitation-content {
+    padding: 20px;
+}
+
+.invitation-content p {
+    font-size: 1.2em;
+    color: #555;
+    margin: 5px 0;
+}
+
+.invitation-content h2 {
+    margin: 10px 0;
+    color: #333;
+    font-weight: normal;
+}
+
+.invitation-content h3, .invitation-content h4 {
+    margin: 5px 0;
+    color: #666;
+    font-weight: normal;
+}
+
+@media (max-width: 600px) {
+    .invitation-container {
+        padding: 15px;
+        max-width: 90%;
+    }
+
+    .invitation-header h1 {
+        font-size: 1.5em;
+    }
+
+    .invitation-content p, .invitation-content h2, .invitation-content h3, .invitation-content h4 {
+        font-size: 1em;
+    }
+}
